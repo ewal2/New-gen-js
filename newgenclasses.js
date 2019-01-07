@@ -14,6 +14,7 @@ class Person extends Human{
   constructor(){
     super();
     this.name = "Max";
+    this.gender = "female";
   }
   
   printMyName(){
@@ -23,4 +24,4 @@ class Person extends Human{
 
 const person = new Person();
 person.printMyName();  // "Max"
-person.printGender();  // "male"
+person.printGender();  // "female"
